@@ -56,6 +56,7 @@ jobs:
       run: |
         #!/bin/bash
         export PATH="$PWD/crosscompilers/bin:$PATH"
+        echo $PATH
         set -e
         for f in linux_*.sh; do
           if [[ "$f" == *_cross.sh ]] || [[ "$f" == *_regular.sh ]]
