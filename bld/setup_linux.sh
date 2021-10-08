@@ -20,5 +20,4 @@ wget -q https://musl.cc/armel-linux-musleabi-cross.tgz
 tar --strip-components=1 -zxf armel-linux-musleabi-cross.tgz
 wget -q https://musl.cc/aarch64-linux-musl-cross.tgz
 tar --strip-components=1 -zxf aarch64-linux-musl-cross.tgz
-export PATH="$PWD/bin:$PATH"
 cd ..
